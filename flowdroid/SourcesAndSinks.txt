@@ -1,0 +1,27 @@
+<com.google.gson.Gson: java.lang.String	toJson(com.google.gson.JsonElement)> -> _SOURCE_
+<com.google.gson.Gson: java.lang.Object fromJson(java.lang.String, java.lang.Class)> -> _SOURCE_
+<java.net.URLConnection: java.io.OutputStream getOutputStream()> -> _SOURCE_
+<java.net.URLConnection: java.io.InputStream getInputStream()> -> _SOURCE_
+<java.io.InputStream: void <init>()> -> _SOURCE_
+<java.io.InputStream: java.io.InputStream getInputStream()> -> _SOURCE_
+<org.apache.http.HttpResponse: org.apache.http.HttpEntity getEntity()> -> _SOURCE_
+<org.json.JSONTokener: void <init>(java.lang.String s)> -> _SOURCE_ 
+<org.apache.http.client.methods.HttpGet: void <init>(java.lang.String)> -> _SOURCE_
+
+%<com.google.gson.Gson: java.lang.Object fromJson(java.lang.String, java.lang.Class)> -> _SINK_
+<com.google.gson.Gson: java.lang.Object fromJson(java.lang.String, java.lang.reflect.Type)> -> _SINK_
+<com.google.gson.Gson: java.lang.Object fromJson(java.io.Reader, java.lang.reflect.Type)> -> _SINK_
+<com.google.gson.Gson: java.lang.Object fromJson(com.google.gson.stream.JsonReader, java.lang.reflect.Type)> -> _SINK_
+
+<java.io.DataOutputStream: void write(byte[], int, int)> -> _SINK_
+<java.io.DataOutputStream: void write(byte[])> -> _SINK_
+<java.io.DataOutputStream: void	write(int)> -> _SINK_
+<java.io.OutputStream: void write(byte[])> -> _SINK_
+<java.io.OutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.OutputStream: void write(int)> -> _SINK_
+<java.io.FileOutputStream: void write(byte[])> -> _SINK_
+<java.io.FileOutputStream: void write(byte[],int,int)> -> _SINK_
+<java.io.FileOutputStream: void write(int)> -> _SINK_
+<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SINK_
+<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)> -> _SINK_
+<org.apache.http.client.methods.HttpPost:void <init>(java.lang.String)> -> _SINK_
